@@ -35,6 +35,13 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
+  #provider 是一个社区推荐的状态管理包，主要用于在 Widget 树中高效地共享和管理状态
+  provider: ^6.1.2
+  dio: ^5.7.0
+  shared_preferences: ^2.3.3
+  pull_to_refresh: ^2.0.0
+  #用于创建轮播图
+  carousel_slider: ^5.0.0
 
 dev_dependencies:
   flutter_test:

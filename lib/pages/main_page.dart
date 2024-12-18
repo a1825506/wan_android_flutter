@@ -53,19 +53,19 @@ class _MainPageState extends State<MainPage>
               ),
               Tab(
                 text: '项目',
-                icon: Icon(Icons.home_outlined),
+                icon: Icon(Icons.business_center_outlined),
               ),
               Tab(
                 text: '广场',
-                icon: Icon(Icons.home_outlined),
+                icon: Icon(Icons.crop_square),
               ),
               Tab(
                 text: '订阅',
-                icon: Icon(Icons.home_outlined),
+                icon: Icon(Icons.subscript_outlined),
               ),
               Tab(
                 text: '我的',
-                icon: Icon(Icons.home_outlined),
+                icon: Icon(Icons.manage_accounts_outlined),
               ),
             ],
           ),
@@ -85,6 +85,5 @@ class _MainPageState extends State<MainPage>
             ],
           ),
         ),
-
       );
 }
